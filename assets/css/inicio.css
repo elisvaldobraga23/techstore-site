@@ -1,0 +1,102 @@
+@import url(global.css);
+
+section.inicio{
+
+    max-width: var(--largura-secoes);
+    min-height: 20vh;
+
+    margin: 0 auto;
+    padding: 15px;
+    height: 50%;
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url(../img/fundo-tela-inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    color: var(--texto-principal);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+section.inicio h1{
+    width: 70%;
+
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+section.inicio p{
+    width: 65%;
+
+    font-size: 0.8rem;
+    color: var(--texto-secundario);
+}
+
+section.inicio .btn-produtos{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    font-weight: 600;
+}
+
+section.inicio .btn-produtos:active{
+
+    transform: scale(1.03);
+
+    background-color: var(--azul-neon);
+    color: #000;
+
+}
+
+@media (min-width: 668px){
+
+    section.inicio{
+
+        min-height: 55vh;
+
+        background-image: url(../img/fundo-tela-inicio.png);
+
+        padding-left: 50px;
+
+        justify-content: space-around;
+
+    }
+
+    section.inicio h1{
+        width: 60%;
+
+        font-size: 3.3rem;
+        line-height: 50px;
+    }
+
+    section.inicio p{
+        width: 50%;
+
+        font-size: 1.2rem;
+    }
+
+    section.inicio .btn-produtos{
+ 
+        gap: 10px;
+
+    }
+    section.inicio .btn-produtos:hover{
+
+        transform: scale(1.03);
+
+        background-color: var(--azul-neon);
+        color: #000;
+
+    }
+}
