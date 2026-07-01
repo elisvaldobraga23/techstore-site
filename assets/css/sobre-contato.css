@@ -1,0 +1,168 @@
+@import url(global.css);
+
+section.conteiner{
+    width: 90%;
+    margin: 50px auto 0;
+    
+}
+
+section.conteiner span.titulo{
+
+    font-size: 0.8rem;
+    color: var( --azul-destaque);
+    font-weight: 500;
+
+}
+
+/* Seção Sobre */
+section.sobre{
+
+    padding: 50px;
+
+    background-color: var(--fundo-secundario);
+    color: var(--texto-principal);
+    border-radius: 10px;
+
+    margin-bottom: 50px;
+}
+
+section.sobre h1{
+    
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 30px;
+
+    margin: 10px 0;
+
+}
+
+section.sobre p{
+    font-family: var(--texto);
+    font-size: 0.9rem;
+
+    color: var(--texto-suave);
+
+    margin-bottom: 20px;
+}
+
+section.sobre div.qualidade{
+
+    width: 100%;
+
+    margin: 10px 0 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+section.sobre div.qualidade span.material-symbols-outlined{
+
+    background-color: var(--azul-profundo);
+
+    font-size: 2.2rem;
+    color: var(--azul-destaque);
+    font-weight: 400;
+
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+section.sobre div.qualidade div.column{
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.sobre div.qualidade h2{
+
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+/* Contato */
+section.contato{
+
+    background-color: var(--fundo-claro);
+    box-shadow: 0px 0px 5px var(--sombra-card);
+
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+section.contato h1{
+    font-weight: 600;
+    
+}
+
+section.contato p{ 
+    font-size: 0.9rem;
+    font-weight: 300;
+
+    width: 70%;
+
+    margin-bottom: 40px;
+}
+
+section.contato form{
+
+    display: flex;
+    flex-direction: column;
+}
+
+section.contato form label{
+    
+    font-size: 0.9rem;
+}
+
+section.contato form input{
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border: 1px  solid var(--brilho-azul);
+    border-radius: 5px;
+}
+
+section.contato form input.input-cep{
+    margin: 0 0 10px;
+}
+
+section.contato form div.cep{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+section.contato form button.btn-cep{
+    margin: 0;
+    padding: 10px;
+
+    color: var(--texto-principal);
+    font-size: 0.9rem;
+}
+
+section.contato form textarea{
+    height: 100px;
+
+    margin-bottom: 20px;
+
+    border: 1px  solid var(--brilho-azul);
+    border-radius: 5px;
+}
+
+section.contato form button.btn-enviar{
+
+    border-radius: 5px;
+    padding: 10px;
+
+    color: var(--texto-principal);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+

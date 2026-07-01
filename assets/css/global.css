@@ -1,6 +1,8 @@
 @import url(variaveis.css);
 @import url(cabecalho.css);
 @import url(inicio.css);
+@import url(produtos.css);
+@import url(sobre-contato.css);
 
 *{
     margin: 0;

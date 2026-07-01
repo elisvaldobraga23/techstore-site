@@ -1,7 +1,7 @@
 @import url(global.css);
 
 .cabecalho{
-    max-width: var(--largura-secoes);
+    max-width: 100vw;
     height: 70px;
     background-color: var(--fundo-principal);
 
