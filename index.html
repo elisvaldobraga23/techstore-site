@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Tech Store</title>
   </head>
   <body>
@@ -162,27 +163,63 @@
         <h1>Fale conosco</h1>
         <p>Tem dúvidas ou sugestão? preencha o formulário abaixo</p>
         <form>
-          <label for="nome">Nome Completo</label>
-          <input type="text" required placeholder="Seu nome" />
-          <label for="email">E-mail</label>
-          <input type="email" required placeholder="Seu@emial.com" />
-          <label for="email">CEP</label>
+          <div class="row">
+            <div class="column">
+              <label for="nome">Nome Completo</label>
+              <input type="text" required placeholder="Seu nome" />
+            </div>
+            <div class="column">
+              <label for="email">E-mail</label>
+              <input type="email" required placeholder="Seu@emial.com" />
+            </div>
+          </div>
+          <label for="cep">CEP</label>
           <div class="cep">
             <input class="input-cep" type="number" required placeholder="Ex: 01001-000" />
             <button class="btn btn-cep">Buscar CEP</button>
           </div>
           <!-- <p class="resposta"></p> -->
-          <label for="email">Endereço</label>
+          <label for="endereco">Endereço</label>
           <input
             type="text"
             required
             placeholder="O endereço será preenchido automaticamente"
           />
-          <label for="email">Mensagem</label>
+          <label for="mensagem">Mensagem</label>
           <textarea required placeholder="Digite sua mensagem..."></textarea>
           <button class="btn btn-enviar">Enviar Mensagem</button>
         </form>
       </section>
     </section>
+
+    <!-- Rodapé -->
+     <footer>
+      <div class="column-rodape">
+        <div class="eslogam">
+          <h1 class="logo">tech<span>Store</span></h1>
+          <p>Tecnologia que conecta, produtos que transformam. Essa é nossa missão.</p>
+        </div>
+        <nav class="nav-rodape">
+          <h1 class="titulos-rodape">NAVEGAÇÃO</h1>
+          <a href="#">Início</a>
+          <a href="#">Produtos</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
+        </nav>
+        <div class="atendimento">
+          <h1 class="titulos-rodape">ATENDIMENTO</h1>
+          <p>contato@techstore.com.br</p>
+          <p>(00) 0 0000-0000</p>
+          <p>Seg a Sex: 9h ás 18h</p>
+        </div>
+        <div class="redes-sociais">
+          <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-facebook"></i></a>
+          <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-instagram"></i></a>
+          <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-linkedin-in"></i></a>
+          <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <p>&copy; 2026 techStore. Todos os direitos reservados.</p>
+     </footer>
   </body>
 </html>

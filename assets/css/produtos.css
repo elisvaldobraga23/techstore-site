@@ -68,10 +68,12 @@ section.produtos div.produto button.btn-detalhe{
     border: 2px solid var(--azul-claro);
 }
 
-@media (min-width: 668px) {
+@media( min-width: 720px ) {
 
     section.produtos{
         max-width: var(--largura-secoes);
+
+        margin-bottom: 50px;
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

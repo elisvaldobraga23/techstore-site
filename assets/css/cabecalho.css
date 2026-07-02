@@ -33,13 +33,13 @@
     font-size: 0.8rem;
 }
 
-@media (min-width: 668px) {
+@media( min-width: 720px ){
 
     .cabecalho{
-    padding: 0 50px;
+        padding: 0 50px;
 
 
-}
+    }
 
     .cabecalho .logo{
         font-size: 1.8rem;

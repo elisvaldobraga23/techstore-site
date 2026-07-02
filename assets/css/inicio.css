@@ -57,7 +57,7 @@ section.inicio .btn-produtos:active{
 
 }
 
-@media (min-width: 668px){
+@media( min-width: 720px ){
 
     section.inicio{
 
