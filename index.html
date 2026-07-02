@@ -38,7 +38,23 @@
     </section>
 
     <!-- Seção de produtos -->
-    <section class="produtos"></section>
+    <section class="produtos">
+      <div class="produto">
+        <img
+          class="img-produto"
+          src="./assets/img/img-produtos/img-notebook.jpg"
+          alt="imagem produto"
+        />
+
+        <div class="texto">
+          <h2 class="titulo-produto">${produto.nome}</h2>
+          <p class="descricao">${produto.descricao}</p>
+          <p class="preco-produto">R$ ${produto.preco.toFixed(2)}</p>
+        </div>
+
+        <button class="btn btn-detalhe">Ver Detalhes</button>
+      </div>
+    </section>
 
     <!-- Seção sobre e Contado -->
     <section class="conteiner">

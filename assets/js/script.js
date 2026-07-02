@@ -7,14 +7,14 @@ const card = produtos.map(produto =>
     <div class="produto">
         <img
           class="img-produto"
-          src="./assets/img/img-iphone.jpg"
+          src="${produto.fotos}"
           alt="imagem produto"
         />
 
         <div class="texto">
-          <h2 class="titulo-produto"></h2>
-          <p class="descricao">Desempenho incrivel com o chip A17 Pro.</p>
-          <p class="preco-produto">R$ 8.999,00</p>
+          <h2 class="titulo-produto">${produto.nome}</h2>
+          <p class="descricao">${produto.descricao}</p>
+          <p class="preco-produto">R$ ${produto.preco.toFixed(2)}</p>
         </div>
 
         <button class="btn btn-detalhe">Ver Detalhes</button>
@@ -22,3 +22,7 @@ const card = produtos.map(produto =>
 ).join("")
 
 secaoProdutos.innerHTML = card
+
+produtos.forEach(produto => {
+  console.log(produto.fotos)
+})

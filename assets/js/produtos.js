@@ -5,11 +5,7 @@
     preco: 4799.90,
     descricao:
       "Notebook desenvolvido para jogos e produtividade, oferecendo excelente desempenho e carregamento rápido.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-notebook.jpg",
     especificacoes: {
       processador: { label: "Processador", valor: "Intel Core i5 13420H" },
       memoria: { label: "Memória RAM", valor: "16 GB DDR5" },
@@ -25,11 +21,7 @@
     preco: 1299.90,
     descricao:
       "Monitor IPS com alta taxa de atualização para jogos e trabalhos gráficos.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets//img/img-produtos/img-monitor3.jpg",
     especificacoes: {
       tamanho: { label: "Tamanho", valor: "27 Polegadas" },
       resolucao: { label: "Resolução", valor: "Full HD" },
@@ -45,11 +37,7 @@
     preco: 189.90,
     descricao:
       "Mouse ergonômico com iluminação RGB personalizável e alta precisão.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-mouse.jpg",
     especificacoes: {
       dpi: { label: "DPI", valor: "16000 DPI" },
       botoes: { label: "Botões", valor: "7" },
@@ -65,11 +53,7 @@
     preco: 359.90,
     descricao:
       "Teclado mecânico com switches de alta durabilidade e iluminação RGB.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-teclado.jpg",
     especificacoes: {
       switch: { label: "Switch", valor: "Red" },
       iluminacao: { label: "Iluminação", valor: "RGB" },
@@ -85,11 +69,7 @@
     preco: 299.90,
     descricao:
       "Headset confortável com áudio surround e microfone removível.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-headset.jpg",
     especificacoes: {
       audio: { label: "Áudio", valor: "7.1 Virtual" },
       conexao: { label: "Conexão", valor: "USB" },
@@ -105,11 +85,7 @@
     preco: 549.90,
     descricao:
       "SSD de alta velocidade para inicialização rápida e carregamento de aplicativos.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-ssd.jpg",
     especificacoes: {
       capacidade: { label: "Capacidade", valor: "1 TB" },
       interface: { label: "Interface", valor: "PCIe 4.0" },
@@ -125,11 +101,7 @@
     preco: 2499.90,
     descricao:
       "Placa de vídeo para jogos em alta qualidade e criação de conteúdo.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-placa.jpg",
     especificacoes: {
       memoria: { label: "Memória", valor: "8 GB GDDR6" },
       interface: { label: "Interface", valor: "PCIe 4.0" },
@@ -145,11 +117,7 @@
     preco: 3899.90,
     descricao:
       "Smartphone com câmera avançada, tela AMOLED e desempenho de alto nível.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-iphone.jpg",
     especificacoes: {
       tela: { label: "Tela", valor: '6.7" AMOLED' },
       armazenamento: { label: "Armazenamento", valor: "256 GB" },
@@ -165,11 +133,7 @@
     preco: 599.90,
     descricao:
       "Relógio inteligente com monitoramento de saúde e atividades físicas.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "./assets/img/img-produtos/img-smartwatch.jpg",
     especificacoes: {
       tela: { label: "Tela", valor: "AMOLED" },
       bateria: { label: "Bateria", valor: "10 dias" },
@@ -185,11 +149,7 @@
     preco: 429.90,
     descricao:
       "Caixa de som portátil com áudio potente e resistência à água.",
-    fotos: [
-      "",
-      "",
-      "",
-    ],
+    fotos: "../assets/img/img-produtos/img-caixa-som.jpg",
     especificacoes: {
       potencia: { label: "Potência", valor: "40 W" },
       bluetooth: { label: "Bluetooth", valor: "5.3" },
