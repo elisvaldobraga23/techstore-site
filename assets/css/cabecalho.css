@@ -1,6 +1,7 @@
 @import url(global.css);
 
 .cabecalho{
+    
     max-width: 100vw;
     height: 70px;
     background-color: var(--fundo-principal);
@@ -13,31 +14,40 @@
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+
 }
 
 .cabecalho .logo{
+
     font-size: 1.5rem;
+
 }
 
 .cabecalho span{
+
     color: var(--azul-destaque);
+
 }
 
 .cabecalho .nav-links{
+
     display: flex;
     gap: 5px;
+
 }
 
 .cabecalho .nav-links a {
+
     color: var(--texto-secundario);
     font-size: 0.8rem;
+
 }
 
-@media( min-width: 720px ){
+@media( min-width: 1024px ){
 
     .cabecalho{
-        padding: 0 50px;
 
+        padding: 0 50px;
 
     }
 
@@ -51,12 +61,17 @@
     }
 
     .cabecalho .nav-links a {
+
         font-size: 0.9rem;
+
+        transition: .3s;
         
     }
 
     .cabecalho .nav-links a:hover{
+
         color: var(--azul-claro);
         transform: scale(1.05);
+
     }
 }

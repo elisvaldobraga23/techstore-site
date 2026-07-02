@@ -177,7 +177,7 @@ section.contato form button.btn-enviar{
 }
 
 
-@media( min-width: 720px ){
+@media( min-width: 1024px ){
 
     section.conteiner{
         
@@ -302,6 +302,12 @@ section.contato form button.btn-enviar{
         padding: 8px;
 
         font-size: 1rem;
+    }
+
+    section.contato form button.btn-cep,
+    section.contato form button.btn-enviar{
+
+        transition: .3s;
     }
 
     section.contato form button.btn-cep:hover,

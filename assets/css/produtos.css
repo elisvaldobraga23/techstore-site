@@ -1,6 +1,7 @@
 @import url(global.css);
 
 section.produtos{
+    
     max-width: var(--largura-secoes);
 
     margin: 50px auto 0;
@@ -9,9 +10,11 @@ section.produtos{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
 }
 
 section.produtos div.produto{
+
     box-shadow: 0px 0px 5px var(--sombra-card);
     width: 70%;
 
@@ -25,6 +28,7 @@ section.produtos div.produto{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+
 }
 
 section.produtos div.produto img.img-produto{
@@ -34,8 +38,10 @@ section.produtos div.produto img.img-produto{
 }
 
 section.produtos div.produto h2.titulo-produto{
+
     font-size: 2rem;
     margin-bottom: 10px;
+
 }
 
 section.produtos div.produto p.descricao{
@@ -56,6 +62,7 @@ section.produtos div.produto p.preco-produto{
 }
 
 section.produtos div.produto button.btn-detalhe{
+
     width: 100%;
     height: 50px;
 
@@ -66,27 +73,36 @@ section.produtos div.produto button.btn-detalhe{
 
     background-color: transparent;
     border: 2px solid var(--azul-claro);
+
 }
 
-@media( min-width: 720px ) {
+
+@media( min-width: 1024px ) {
 
     section.produtos{
+
         max-width: var(--largura-secoes);
 
         margin-bottom: 50px;
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
     }
 
     section.produtos div.produto{
+
         width: 100%;
+
+        transition: .3s;
 
     }
 
     section.produtos div.produto:hover{
+
         transform: scale(1.03);
         box-shadow: 0px 0px 15px var(--brilho-azul);
+
     }
 
     section.produtos div.produto img.img-produto{
@@ -96,6 +112,7 @@ section.produtos div.produto button.btn-detalhe{
     }
 
     section.produtos div.produto h2.titulo-produto{
+
         font-size: 1.5rem;
 
     }
@@ -109,9 +126,11 @@ section.produtos div.produto button.btn-detalhe{
     section.produtos div.produto p.preco-produto{
 
         font-size: 1.2rem;
+
     }
 
     section.produtos div.produto button.btn-detalhe{
+
         width: 100%;
         height: 45px;
 
@@ -120,13 +139,17 @@ section.produtos div.produto button.btn-detalhe{
         display: flex;
         justify-content: center;
         align-items: center;
+
+        transition: .3s;
         
     }
 
     section.produtos div.produto button.btn-detalhe:hover{
+
         background-color: var(--azul-destaque);
         color: var(--texto-principal);
         border: none;
+
     }
     
 }
