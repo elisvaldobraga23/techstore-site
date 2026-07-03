@@ -149,7 +149,7 @@ const produtos = [
     preco: 429.90,
     descricao:
       "Caixa de som portátil potente e resistente à água.",
-    fotos: "../assets/img/img-produtos/img-caixa-som.png",
+    fotos: "./assets/img/img-produtos/img-caixa-som.png",
     especificacoes: {
       potencia: { label: "Potência", valor: "40 W" },
       bluetooth: { label: "Bluetooth", valor: "5.3" },
