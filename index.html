@@ -8,8 +8,14 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
     <title>Tech Store</title>
   </head>
   <body>
@@ -17,15 +23,15 @@
     <header class="cabecalho">
       <h1 class="logo">Tech<span>Store</span></h1>
       <nav class="nav-links">
-        <a href="#">Início</a>
-        <a href="#">Produtos</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
 
     <!-- Sessão Início -->
-    <section class="inicio">
+    <section id="inicio">
       <h1 class="titulo-inicio">Tecnologia que transforma seu dia.</h1>
       <p class="subtitulo">
         Os melhores produtos de tecnologia com os melhores preços para você
@@ -39,28 +45,28 @@
     </section>
 
     <!-- Seção de produtos -->
-    <section class="produtos">
-      <div class="produto">
-        <img
-          class="img-produto"
-          src="./assets/img/img-produtos/img-notebook.jpg"
-          alt="imagem produto"
-        />
+    <section id="produtos"></section>
 
-        <div class="texto">
-          <h2 class="titulo-produto">${produto.nome}</h2>
-          <p class="descricao">${produto.descricao}</p>
-          <p class="preco-produto">R$ ${produto.preco.toFixed(2)}</p>
+    <!-- Modal Detalhes -->
+    <section id="modal" class="modal">
+      <div class="modal-content">
+        <button class="fechar-modal">&times;</button>
+
+        <img class="modal-img" />
+
+        <div class="column-modal">
+          <h2 class="modal-nome"></h2>
+          <p class="modal-descricao"></p>
+          <h2 class="modal-preco"></h2>
+          <div class="modal-especificacoes"></div>
         </div>
-
-        <button class="btn btn-detalhe">Ver Detalhes</button>
       </div>
     </section>
 
-    <!-- Seção sobre e Contado -->
+    <!-- Seção sobre e Contato -->
     <section class="conteiner">
       <!-- Seção Sobre -->
-      <section class="sobre">
+      <section id="sobre">
         <span class="titulo">SOBRE NÓS</span>
 
         <h1>Qualidade e confiança em cada escolha</h1>
@@ -99,7 +105,7 @@
       </section>
 
       <!-- Seção Contato -->
-      <section class="contato">
+      <section id="contato">
         <span class="titulo">ENTRE EM CONTATO</span>
         <h1>Fale conosco</h1>
         <p>Tem dúvidas ou sugestão? preencha o formulário abaixo</p>
@@ -116,7 +122,12 @@
           </div>
           <label for="cep">CEP</label>
           <div class="cep">
-            <input class="input-cep" required type="number" placeholder="Ex: 01001-000" />
+            <input
+              class="input-cep"
+              required
+              type="number"
+              placeholder="Ex: 01001-000"
+            />
             <button type="button" class="btn btn-cep">Buscar CEP</button>
           </div>
           <label for="endereco">Endereço</label>
@@ -133,19 +144,22 @@
     </section>
 
     <!-- Rodapé -->
-     <footer>
+    <footer>
       <div class="row-rodape">
         <div class="eslogam">
           <h1 class="logo">Tech<span>Store</span></h1>
-          <p class="p-eslogam">Tecnologia que conecta, produtos que transformam. Essa é nossa missão.</p>
+          <p class="p-eslogam">
+            Tecnologia que conecta, produtos que transformam. Essa é nossa
+            missão.
+          </p>
         </div>
         <nav class="nav-rodape">
           <h1 class="titulos-rodape">NAVEGAÇÃO</h1>
           <div class="links">
-            <a href="#">Início</a>
-            <a href="#">Produtos</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
           </div>
         </nav>
         <div class="atendimento">
@@ -157,19 +171,29 @@
         <div class="redes-sociais">
           <h1 class="titulos-rodape">SIGA-NOS</h1>
           <div class="icons">
-            <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-facebook"></i></a>
-            <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-instagram"></i></a>
-            <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-linkedin-in"></i></a>
-            <a class="rede-social" href="#"><i class=" icon-rede fa-brands fa-youtube"></i></a>
+            <a class="rede-social" href="#"
+              ><i class="icon-rede fa-brands fa-facebook"></i
+            ></a>
+            <a class="rede-social" href="#"
+              ><i class="icon-rede fa-brands fa-instagram"></i
+            ></a>
+            <a class="rede-social" href="#"
+              ><i class="icon-rede fa-brands fa-linkedin-in"></i
+            ></a>
+            <a class="rede-social" href="#"
+              ><i class="icon-rede fa-brands fa-youtube"></i
+            ></a>
           </div>
         </div>
       </div>
-      <p class="p-copy"><span>&copy; 2026 TechStore.</span>
-        <span>Todos os direitos reservados.</span></p>
-     </footer>
+      <p class="p-copy">
+        <span>&copy; 2026 TechStore.</span>
+        <span>Todos os direitos reservados.</span>
+      </p>
+    </footer>
 
-     <script type="module" src="./assets/js/script.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
 
-     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>

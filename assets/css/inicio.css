@@ -1,6 +1,6 @@
 @import url(global.css);
 
-section.inicio{
+section#inicio{
     
 
     margin: 0 auto;
@@ -24,7 +24,7 @@ section.inicio{
     gap: 15px;
 }
 
-section.inicio h1{
+section#inicio h1{
 
     max-width: 300px;
 
@@ -33,7 +33,7 @@ section.inicio h1{
 
 }
 
-section.inicio p{
+section#inicio p{
 
     max-width: 300px;
 
@@ -42,7 +42,7 @@ section.inicio p{
 
 }
 
-section.inicio .btn-produtos{
+section#inicio .btn-produtos{
     
     display: flex;
     gap: 10px;
@@ -52,7 +52,7 @@ section.inicio .btn-produtos{
     
 }
 
-section.inicio .btn-produtos:active{
+section#inicio .btn-produtos:active{
 
     transform: scale(1.03);
 
@@ -63,7 +63,7 @@ section.inicio .btn-produtos:active{
 
 @media( min-width: 1024px ){
 
-    section.inicio{
+    section#inicio{
 
         min-height: 55vh;
 
@@ -75,7 +75,7 @@ section.inicio .btn-produtos:active{
 
     }
 
-    section.inicio h1{
+    section#inicio h1{
 
         max-width: 600px;
 
@@ -83,19 +83,19 @@ section.inicio .btn-produtos:active{
         line-height: 50px;
     }
 
-    section.inicio p{
+    section#inicio p{
         max-width: 500px;
 
         font-size: 1.2rem;
     }
 
-    section.inicio .btn-produtos{
+    section#inicio .btn-produtos{
  
         gap: 10px;
         transition: .3s;
 
     }
-    section.inicio .btn-produtos:hover{
+    section#inicio .btn-produtos:hover{
 
         transform: scale(1.03);
 

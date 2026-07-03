@@ -15,7 +15,7 @@ section.conteiner span.titulo{
 }
 
 /* Seção Sobre */
-section.sobre{
+section#sobre{
 
     padding: 50px;
 
@@ -27,7 +27,7 @@ section.sobre{
     margin-bottom: 50px;
 }
 
-section.sobre h1{
+section#sobre h1{
     
     font-size: 1.7rem;
     font-weight: 600;
@@ -37,7 +37,7 @@ section.sobre h1{
 
 }
 
-section.sobre p{
+section#sobre p{
     font-family: var(--texto);
     font-size: 0.9rem;
 
@@ -46,7 +46,7 @@ section.sobre p{
     margin-bottom: 20px;
 }
 
-section.sobre div.qualidade{
+section#sobre div.qualidade{
 
     width: 100%;
 
@@ -58,7 +58,7 @@ section.sobre div.qualidade{
     gap: 15px;
 }
 
-section.sobre div.qualidade span.material-symbols-outlined{
+section#sobre div.qualidade span.material-symbols-outlined{
 
     background-color: var(--azul-profundo);
 
@@ -71,7 +71,7 @@ section.sobre div.qualidade span.material-symbols-outlined{
     padding: 10px;
 }
 
-section.sobre div.qualidade div.column{
+section#sobre div.qualidade div.column{
     height: 60px;
 
     display: flex;
@@ -79,7 +79,7 @@ section.sobre div.qualidade div.column{
     justify-content: space-between;
 }
 
-section.sobre div.qualidade h2{
+section#sobre div.qualidade h2{
 
     font-size: 1.1rem;
     font-weight: 500;
@@ -87,7 +87,7 @@ section.sobre div.qualidade h2{
 }
 
 /* Contato */
-section.contato{
+section#contato{
 
     background-color: var(--fundo-claro);
     box-shadow: 0px 0px 5px var(--sombra-card);
@@ -97,12 +97,12 @@ section.contato{
     padding: 50px;
 }
 
-section.contato h1{
+section#contato h1{
     font-weight: 600;
     
 }
 
-section.contato p{ 
+section#contato p{ 
     font-size: 0.9rem;
     font-weight: 300;
 
@@ -111,18 +111,18 @@ section.contato p{
     margin-bottom: 40px;
 }
 
-section.contato form{
+section#contato form{
 
     display: flex;
     flex-direction: column;
 }
 
-section.contato form label{
+section#contato form label{
     
     font-size: 0.9rem;
 }
 
-section.contato form input{
+section#contato form input{
     padding: 10px;
     margin-bottom: 20px;
 
@@ -130,35 +130,33 @@ section.contato form input{
     border-radius: 5px;
 }
 
-section.contato form input:focus,
-section.contato form textarea:focus
+section#contato form input:focus,
+section#contato form textarea:focus
 {
     outline: none;
     border: 2px solid var(--azul-destaque);
 }
 
-section.contato form input.input-cep{
+section#contato form input.input-cep{
     margin: 0 0 10px;
 }
 
-section.contato form div.cep{
+section#contato form div.cep{
     display: flex;
     flex-direction: column;
 
     margin-bottom: 20px;
 }
 
-section.contato form button.btn-cep{
+section#contato form button.btn-cep{
     margin: 0;
     padding: 10px;
-
-    
 
     color: var(--texto-principal);
     font-size: 0.9rem;
 }
 
-section.contato form textarea{
+section#contato form textarea{
     height: 100px;
 
     margin-bottom: 20px;
@@ -168,7 +166,7 @@ section.contato form textarea{
     border-radius: 5px;
 }
 
-section.contato form button.btn-enviar{
+section#contato form button.btn-enviar{
 
     border-radius: 5px;
     padding: 10px;
@@ -194,7 +192,7 @@ section.contato form button.btn-enviar{
     }
 
     /* Seção Sobre */
-    section.sobre{
+    section#sobre{
 
         border-radius: 10px 0 0 10px ;
 
@@ -202,21 +200,21 @@ section.contato form button.btn-enviar{
 
     }
 
-    section.sobre h1{
+    section#sobre h1{
         
         max-width: 350px;
         font-size: 1.8rem;
 
     }
 
-    section.sobre p{
+    section#sobre p{
 
         font-size: 1rem;
         margin-bottom: 90px;
 
     }
 
-    section.sobre div.qualidade{
+    section#sobre div.qualidade{
 
         width: 70%;
 
@@ -224,14 +222,14 @@ section.contato form button.btn-enviar{
 
     }
 
-    section.sobre div.qualidade span.material-symbols-outlined{
+    section#sobre div.qualidade span.material-symbols-outlined{
 
         padding: 15px;
         
     }
 
     /* Contato */
-    section.contato{
+    section#contato{
 
         margin-bottom: 0;
 
@@ -239,7 +237,7 @@ section.contato form button.btn-enviar{
 
     }
 
-    section.contato h1{
+    section#contato h1{
         
         font-size: 2rem;
 
@@ -247,7 +245,7 @@ section.contato form button.btn-enviar{
   
     }
 
-    section.contato p{ 
+    section#contato p{ 
 
         font-size: 1rem;
         margin-bottom: 10px;
@@ -256,16 +254,16 @@ section.contato form button.btn-enviar{
 
     }
 
-    section.contato form label{
+    section#contato form label{
         
         font-size: 1rem;
     }
 
-    section.contato form input{
+    section#contato form input{
         margin-bottom: 10px;
     }
 
-    section.contato form div.row{
+    section#contato form div.row{
 
         width: 100%;
 
@@ -274,7 +272,7 @@ section.contato form button.btn-enviar{
     
     }
     
-    section.contato form div.row div.column{
+    section#contato form div.row div.column{
 
         width: 100%;
         display: flex;
@@ -282,12 +280,12 @@ section.contato form button.btn-enviar{
 
     }
 
-    section.contato form input.input-cep{
+    section#contato form input.input-cep{
         width: 50%;
 
     }
 
-    section.contato form div.cep{
+    section#contato form div.cep{
 
         display: flex;
         flex-direction: row;
@@ -298,7 +296,7 @@ section.contato form button.btn-enviar{
 
     }
 
-    section.contato form button.btn-cep{
+    section#contato form button.btn-cep{
 
         width: 50%;
         padding: 8px;
@@ -306,26 +304,26 @@ section.contato form button.btn-enviar{
         font-size: 1rem;
     }
 
-    section.contato form button.btn-cep,
-    section.contato form button.btn-enviar{
+    section#contato form button.btn-cep,
+    section#contato form button.btn-enviar{
 
         transition: .3s;
     }
 
-    section.contato form button.btn-cep:hover,
-    section.contato form button.btn-enviar:hover{
+    section#contato form button.btn-cep:hover,
+    section#contato form button.btn-enviar:hover{
 
         background-color: var(--azul-claro);
         transform: scale(1.03);
     }
 
-    section.contato form textarea{
+    section#contato form textarea{
         
         margin-bottom: 20px;
 
     }
 
-    section.contato form button.btn-enviar{
+    section#contato form button.btn-enviar{
 
         font-size: 1rem;
     }

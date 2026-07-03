@@ -35,11 +35,6 @@
     --borda-suave: #334155;
     --borda-clara: #E2E8F0;
 
-    /* Estados */
-    --sucesso: #22C55E;
-    --alerta: #F59E0B;
-    --erro: #EF4444;
-
     /* Sombras e efeitos */
     --brilho-azul: rgba(59, 130, 246, 0.4);
     --sombra-card: rgba(0, 0, 0, 0.25);

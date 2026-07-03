@@ -5,7 +5,7 @@ const produtos = [
     preco: 4799.90,
     descricao:
       "Notebook para jogos e produtividade com ótimo desempenho e velocidade.",
-    fotos: "./assets/img/img-produtos/img-notebook.jpg",
+    fotos: "./assets/img/img-produtos/img-notebook.png",
     especificacoes: {
       processador: { label: "Processador", valor: "Intel Core i5 13420H" },
       memoria: { label: "Memória RAM", valor: "16 GB DDR5" },
@@ -21,7 +21,7 @@ const produtos = [
     preco: 1299.90,
     descricao:
       "Monitor IPS com alta taxa de atualização para jogos e uso gráfico.",
-    fotos: "./assets//img/img-produtos/img-monitor3.jpg",
+    fotos: "./assets//img/img-produtos/img-monitor3.png",
     especificacoes: {
       tamanho: { label: "Tamanho", valor: "27 Polegadas" },
       resolucao: { label: "Resolução", valor: "Full HD" },
@@ -37,7 +37,7 @@ const produtos = [
     preco: 189.90,
     descricao:
       "Mouse ergonômico com RGB e alta precisão.",
-    fotos: "./assets/img/img-produtos/img-mouse.jpg",
+    fotos: "./assets/img/img-produtos/img-mouse.png",
     especificacoes: {
       dpi: { label: "DPI", valor: "16000 DPI" },
       botoes: { label: "Botões", valor: "7" },
@@ -53,7 +53,7 @@ const produtos = [
     preco: 359.90,
     descricao:
       "Teclado mecânico com switches duráveis e iluminação RGB.",
-    fotos: "./assets/img/img-produtos/img-teclado.jpg",
+    fotos: "./assets/img/img-produtos/img-teclado.png",
     especificacoes: {
       switch: { label: "Switch", valor: "Red" },
       iluminacao: { label: "Iluminação", valor: "RGB" },
@@ -69,7 +69,7 @@ const produtos = [
     preco: 299.90,
     descricao:
       "Headset confortável com áudio surround e microfone removível.",
-    fotos: "./assets/img/img-produtos/img-headset.jpg",
+    fotos: "./assets/img/img-produtos/img-headset.png",
     especificacoes: {
       audio: { label: "Áudio", valor: "7.1 Virtual" },
       conexao: { label: "Conexão", valor: "USB" },
@@ -85,7 +85,7 @@ const produtos = [
     preco: 549.90,
     descricao:
       "SSD rápido para inicialização e carregamento de aplicativos.",
-    fotos: "./assets/img/img-produtos/img-ssd.jpg",
+    fotos: "./assets/img/img-produtos/img-ssd.png",
     especificacoes: {
       capacidade: { label: "Capacidade", valor: "1 TB" },
       interface: { label: "Interface", valor: "PCIe 4.0" },
@@ -101,7 +101,7 @@ const produtos = [
     preco: 2499.90,
     descricao:
       "Placa de vídeo para jogos e criação de conteúdo em alta qualidade.",
-    fotos: "./assets/img/img-produtos/img-placa.jpg",
+    fotos: "./assets/img/img-produtos/img-placa.png",
     especificacoes: {
       memoria: { label: "Memória", valor: "8 GB GDDR6" },
       interface: { label: "Interface", valor: "PCIe 4.0" },
@@ -117,7 +117,7 @@ const produtos = [
     preco: 3899.90,
     descricao:
       "Smartphone com câmera avançada e alto desempenho.",
-    fotos: "./assets/img/img-produtos/img-iphone.jpg",
+    fotos: "./assets/img/img-produtos/img-iphone.png",
     especificacoes: {
       tela: { label: "Tela", valor: '6.7" AMOLED' },
       armazenamento: { label: "Armazenamento", valor: "256 GB" },
@@ -133,7 +133,7 @@ const produtos = [
     preco: 599.90,
     descricao:
       "Relógio inteligente com monitoramento de saúde e atividades.",
-    fotos: "./assets/img/img-produtos/img-smartwatch.jpg",
+    fotos: "./assets/img/img-produtos/img-smartwatch.png",
     especificacoes: {
       tela: { label: "Tela", valor: "AMOLED" },
       bateria: { label: "Bateria", valor: "10 dias" },
@@ -149,7 +149,7 @@ const produtos = [
     preco: 429.90,
     descricao:
       "Caixa de som portátil potente e resistente à água.",
-    fotos: "../assets/img/img-produtos/img-caixa-som.jpg",
+    fotos: "../assets/img/img-produtos/img-caixa-som.png",
     especificacoes: {
       potencia: { label: "Potência", valor: "40 W" },
       bluetooth: { label: "Bluetooth", valor: "5.3" },
