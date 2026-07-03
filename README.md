@@ -5,6 +5,17 @@ Projeto de e-commerce fictício desenvolvido como atividade do curso Fullstack d
 O projeto simula uma loja de tecnologia com listagem dinâmica de produtos, modal de detalhes e busca de endereço via API de CEP.
 
 ---
+## Preview do Projeto
+
+![Preview do Projeto](./assets/img/img-preview.png)
+
+---
+
+## 🌐 Visualizar o projeto
+
+👉 [Acessar o projeto online](https://SEU-USUARIO.github.io/techstore-site/)
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -90,7 +101,7 @@ techstore/
 ## ▶️ Como executar o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/techstore.git
+git clone https://github.com/elisvaldobraga23/techstore-site
 ````
 
 Depois:
@@ -114,4 +125,8 @@ Depois:
 ## 👨‍💻 Autor
 
 Desenvolvido por **Elisvaldo Braga**
+ - [LinkedIn](https://www.linkedin.com/in/elisvaldo/)
+ - [Portfolio](https://elisvaldobragadev.netlify.app/ 
+ )
+---
 Projeto acadêmico do curso Fullstack da +PraTi
