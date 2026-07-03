@@ -13,7 +13,7 @@ O projeto simula uma loja de tecnologia com listagem dinâmica de produtos, moda
 
 ## 🌐 Visualizar o projeto
 
-👉 [Acessar o projeto online](https://SEU-USUARIO.github.io/techstore-site/)
+👉 [Acessar o projeto online](https://elisvaldobraga23.github.io/techstore-site/)
 
 ---
 
