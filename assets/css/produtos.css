@@ -17,6 +17,7 @@ section.produtos div.produto{
 
     box-shadow: 0px 0px 5px var(--sombra-card);
     width: 70%;
+    height: 100%;
 
     padding: 20px;
 
@@ -26,6 +27,7 @@ section.produtos div.produto{
 
     display: flex;
     flex-direction: column;
+    justify-content: end;
     align-items: center;
     gap: 10px;
 

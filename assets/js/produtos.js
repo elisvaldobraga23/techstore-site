@@ -1,10 +1,10 @@
- const produtos = [
+const produtos = [
   {
     id: 1,
     nome: "Notebook Gamer Nitro V15",
     preco: 4799.90,
     descricao:
-      "Notebook desenvolvido para jogos e produtividade, oferecendo excelente desempenho e carregamento rápido.",
+      "Notebook para jogos e produtividade com ótimo desempenho e velocidade.",
     fotos: "./assets/img/img-produtos/img-notebook.jpg",
     especificacoes: {
       processador: { label: "Processador", valor: "Intel Core i5 13420H" },
@@ -20,7 +20,7 @@
     nome: "Monitor Gamer 27 Polegadas",
     preco: 1299.90,
     descricao:
-      "Monitor IPS com alta taxa de atualização para jogos e trabalhos gráficos.",
+      "Monitor IPS com alta taxa de atualização para jogos e uso gráfico.",
     fotos: "./assets//img/img-produtos/img-monitor3.jpg",
     especificacoes: {
       tamanho: { label: "Tamanho", valor: "27 Polegadas" },
@@ -36,7 +36,7 @@
     nome: "Mouse Gamer RGB",
     preco: 189.90,
     descricao:
-      "Mouse ergonômico com iluminação RGB personalizável e alta precisão.",
+      "Mouse ergonômico com RGB e alta precisão.",
     fotos: "./assets/img/img-produtos/img-mouse.jpg",
     especificacoes: {
       dpi: { label: "DPI", valor: "16000 DPI" },
@@ -52,7 +52,7 @@
     nome: "Teclado Mecânico RGB",
     preco: 359.90,
     descricao:
-      "Teclado mecânico com switches de alta durabilidade e iluminação RGB.",
+      "Teclado mecânico com switches duráveis e iluminação RGB.",
     fotos: "./assets/img/img-produtos/img-teclado.jpg",
     especificacoes: {
       switch: { label: "Switch", valor: "Red" },
@@ -84,7 +84,7 @@
     nome: "SSD NVMe 1TB",
     preco: 549.90,
     descricao:
-      "SSD de alta velocidade para inicialização rápida e carregamento de aplicativos.",
+      "SSD rápido para inicialização e carregamento de aplicativos.",
     fotos: "./assets/img/img-produtos/img-ssd.jpg",
     especificacoes: {
       capacidade: { label: "Capacidade", valor: "1 TB" },
@@ -100,7 +100,7 @@
     nome: "Placa de Vídeo RTX 4060",
     preco: 2499.90,
     descricao:
-      "Placa de vídeo para jogos em alta qualidade e criação de conteúdo.",
+      "Placa de vídeo para jogos e criação de conteúdo em alta qualidade.",
     fotos: "./assets/img/img-produtos/img-placa.jpg",
     especificacoes: {
       memoria: { label: "Memória", valor: "8 GB GDDR6" },
@@ -116,7 +116,7 @@
     nome: "Smartphone Premium 256GB",
     preco: 3899.90,
     descricao:
-      "Smartphone com câmera avançada, tela AMOLED e desempenho de alto nível.",
+      "Smartphone com câmera avançada e alto desempenho.",
     fotos: "./assets/img/img-produtos/img-iphone.jpg",
     especificacoes: {
       tela: { label: "Tela", valor: '6.7" AMOLED' },
@@ -132,7 +132,7 @@
     nome: "Smartwatch Fitness",
     preco: 599.90,
     descricao:
-      "Relógio inteligente com monitoramento de saúde e atividades físicas.",
+      "Relógio inteligente com monitoramento de saúde e atividades.",
     fotos: "./assets/img/img-produtos/img-smartwatch.jpg",
     especificacoes: {
       tela: { label: "Tela", valor: "AMOLED" },
@@ -148,7 +148,7 @@
     nome: "Caixa de Som Bluetooth",
     preco: 429.90,
     descricao:
-      "Caixa de som portátil com áudio potente e resistência à água.",
+      "Caixa de som portátil potente e resistente à água.",
     fotos: "../assets/img/img-produtos/img-caixa-som.jpg",
     especificacoes: {
       potencia: { label: "Potência", valor: "40 W" },
@@ -160,4 +160,4 @@
   }
 ];
 
-export default produtos
+export default produtos;
